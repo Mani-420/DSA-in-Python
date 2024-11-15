@@ -15,7 +15,7 @@
 # Linear Access
 # Searching through a linkedlist
 # Looping through elements in an array
-# This will take more steps as the data growsmore. It gets slower as the data increases.
+# This will take more steps as the data grows more. It gets slower as the data increases.
 
 
 
