@@ -1,6 +1,6 @@
 import array as arr
 
-# Basic Operations ----------------------------------------------
+# Basic Operations -----------------------------------------------
 
 # Finding length----------------------
 find_length = arr.array("i", [1,2,3,4,5])
