@@ -11,9 +11,7 @@ def finding_pair(arr1, target):
 
     left = 0
     right = len(arr1)-1
-
     pairs = []
-
     # result = arr.array("i")
 
     while left <= right:
@@ -22,15 +20,12 @@ def finding_pair(arr1, target):
             pairs.append((arr1[left], arr1[right]))
             left += 1
             right -= 1 
-
         elif current_sum < target:
             left += 1
-        
         else:
             right -= 1
     
     return pairs
-
 
 arr1 = arr.array("i", [1, 3, 4, 6, 7, 10])
 target = 10
