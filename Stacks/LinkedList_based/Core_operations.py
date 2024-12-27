@@ -45,18 +45,18 @@ class Stack:
             current = current.next
         return elements
 
-
-# Example usage
-if __name__ == "__main__":
+def main():
     stack = Stack()
     stack.push(10)
     stack.push(20)
     stack.push(30)
 
-    print("Stack items:", stack.display())  # Output: [30, 20, 10]
-    print("Top item:", stack.peek())  # Output: 30
+    print("Stack items:", stack.display())
+    print("Top item:", stack.peek())  
+    print("Popped item:", stack.pop()) 
+    print("Stack items after pop:", stack.display()) 
+    print("Is stack empty?", stack.is_empty())
 
-    print("Popped item:", stack.pop())  # Output: 30
-    print("Stack items after pop:", stack.display())  # Output: [20, 10]
 
-    print("Is stack empty?", stack.is_empty())  # Output: False
+if __name__ == "__main__":
+    main() 
