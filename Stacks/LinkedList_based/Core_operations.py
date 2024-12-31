@@ -3,7 +3,6 @@ class Node:
         self.data = data
         self.next = None
 
-
 class Stack:
     def __init__(self):
         self.top = None
@@ -38,8 +37,7 @@ class Stack:
             current = current.next
         return elements
 
-
-if __name__ == "__main__":
+def main():
     stack = Stack()
     stack.push(10)
     stack.push(20)
@@ -50,4 +48,7 @@ if __name__ == "__main__":
 
     print("Popped item:", stack.pop()) 
     print("Stack items after pop:", stack.display()) 
-    print("Is stack empty?", stack.is_empty())  
+    print("Is stack empty?", stack.is_empty())    
+
+if __name__ == "__main__":
+    main()
