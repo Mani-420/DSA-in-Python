@@ -1,3 +1,5 @@
+# First is fixed and last is flexibble and considered top
+
 class Stack:
     def __init__(self):
         self.stack = []
