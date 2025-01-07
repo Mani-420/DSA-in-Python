@@ -7,18 +7,29 @@ class Queue:
         
     def dequeue(self):
         front = self.values[0]
-        # self.values.pop(front)
         self.values = self.values[1:]
         return front
+    
+    def peek(self):
+        if self.is_empty():
+            print("Peek operation failed: Queue is empty.")
+            return -1
+        else:
+            return self.values[0]
+
+    def is_empty(self):
+        return len(self.values) == 0
 
 # Test the working:
 q = Queue()
+
 q.enqueue(1)
 q.enqueue(2)
-q.enqueue(3)
 print(f"Queue after Enqueue: {q.values}")
+
+front_num = q.peek()
+print(f"The fisrt element is : {front_num}")
+
 first = q.dequeue()
 second = q.dequeue()
-third = q.dequeue()
 print(f"Queue after Dequeue: {q.values}")
-print (f"Third value of queue is: {third}")
