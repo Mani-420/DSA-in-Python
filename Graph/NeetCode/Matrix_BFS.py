@@ -1,3 +1,5 @@
+// To find the shortest path to the destination
+
 from collections import deque
 
 def bfs(grid):
