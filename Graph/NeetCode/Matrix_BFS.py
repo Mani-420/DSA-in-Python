@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # A simple BFS implementation to find the shortest path in a grid
 # This code uses a queue to explore the grid and find the shortest path from the top-left corner to the bottom-right corner.
+=======
+// To find the shortest path to the destination
+>>>>>>> 67cb245fb81311e4fbb5a712fbb56654afbaca04
 
 from collections import deque
 

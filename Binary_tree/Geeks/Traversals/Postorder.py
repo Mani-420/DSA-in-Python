@@ -1,4 +1,6 @@
 '''
+Postorder Traversal of a binary tree is:
+-> Postorder traversal is a depth-first traversal method where the nodes are recursively visited in this order;
 -> Postorder (Left, Right, Root)
 
 -> Algorithm Postorder(tree):
